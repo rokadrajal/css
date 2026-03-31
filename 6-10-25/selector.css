@@ -1,0 +1,127 @@
+div{
+    width: 100%;
+    height: 100px;
+    color: bisque;
+    background-color: cadetblue;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* p{
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(118, 95, 160);
+
+
+} */
+
+.one{
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(24, 216, 223);
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+
+
+
+.two{
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 180, 24);
+    margin-top: 10px;
+    padding: 20px;
+
+
+}
+
+#one{
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(124, 24, 223);
+    margin-top: 10px;
+    padding: 20px;
+
+
+}
+
+#two{
+    width: 100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 92, 199);
+    margin-top: 10px;
+    padding: 20px;
+
+
+}
+
+/* .outer{
+    background-color:deeppink;
+    height: 200px;
+}
+
+
+.outer p:first-child{
+    color: cornflowerblue;
+}
+
+.outer p:last-child{
+    color: cornflowerblue;
+}
+
+.outer p:nth-child(4){
+    color: chartreuse;
+}
+
+
+.outer1 >p{
+    color: rgb(0, 255, 42);
+}
+
+.outer1{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+
+
+.inner p:first-child{
+    color: brown;
+}
+
+.inner p:last-child{
+    color: brown;
+} */
+
+p{
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 600px;
+    
+
+    background-color: yellowgreen;
+
+}
+
+.p-1::first-letter{
+    color: blue;
+}
+
+.p-2::first-line{
+    color: rgb(0, 34, 255);
+}
+
+
+::selection{
+    background-color: pink;
+    color: black;
+}
+

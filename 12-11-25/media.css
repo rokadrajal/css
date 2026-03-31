@@ -1,0 +1,62 @@
+
+/* height > width */
+
+@media (orientation: portrait){
+    body{
+        background-color: skyblue;
+    }
+    h1{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}
+
+
+/* height < width */
+@media (orientation: landscape){
+    body{
+        background-color:darkblue;
+        color: white;
+    }
+    h2{
+        font-size: 80px;
+    }
+
+}
+
+
+
+
+@media screen and (max-height:500px){
+    body{
+        background-color: aqua;
+
+    }
+}
+
+@media screen and (min-height:600px){
+    body{
+        background-color: burlywood;
+    }
+}
+
+
+
+
+ /* <!-- media type --> */
+@media screen and (max-width:500px){
+   
+}
+
+@media print{
+   
+}
+@media speech{
+
+}
+@media all{
+
+}
+
+

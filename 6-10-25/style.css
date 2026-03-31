@@ -1,0 +1,45 @@
+/* display->block */
+
+.div1 , .div2{
+    background-color: aquamarine;
+    height: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: block;
+}
+
+/* display->inline */
+
+.div3,.div4{
+    display:inline ;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding:20px;
+}
+
+.p1{
+    display: inline;
+}
+
+/* display->inline-block */
+
+.div5 , .div6{
+    display: inline-block;
+    background-color: antiquewhite;
+    width:200px;
+    height: 200px;
+}
+
+/* display-none */
+
+.div7{
+    background-color: aquamarine;
+    height: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: none;
+
+}

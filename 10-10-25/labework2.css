@@ -1,0 +1,418 @@
+.main1{
+    border: 4px solid black;
+}
+
+
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div1{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content: flex-start;
+    
+}
+.box1{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+.main2{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div2{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content: flex-end;
+    
+}
+.box2{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+.main3{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div3{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content:center;
+    
+}
+.box3{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main4{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div4{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.box4{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main5{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div5{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.box5{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main6{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div6{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+}
+.box6{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main7{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div7{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-items: flex-start;
+    
+}
+.box7{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+
+.main8{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div8{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-items: flex-end;
+    
+}
+.box8{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+
+.main9{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div9{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.box9{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main10{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div10{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-items:stretch;
+    
+}
+.box10{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+
+.main11{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div11{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-content: space-between;
+    
+}
+.box11{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+.main12{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div12{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-content: space-around;
+    
+}
+.box12{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}
+
+
+.main13{
+    border: 4px solid black;
+    margin-top: 20px;
+}
+
+h1{
+    width: 99%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    padding: 10px;
+}
+.div13{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    margin-top: -22px;
+    gap: 10px;
+    align-content: space-evenly;
+    
+}
+.box13{
+    height: 100px;
+    background-color: antiquewhite;
+    flex: 0 0 100px;
+    text-align: center;
+    
+}

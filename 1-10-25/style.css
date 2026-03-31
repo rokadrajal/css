@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    background-color: yellow;
+    color: black;
+    font-style: italic;
+
+     
+
+    /* text-decoration */
+
+
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+
+
+    /* text-transform */
+
+    text-transform: lowercase;
+    text-transform: uppercase;
+
+
+
+
+}
+
+span{
+    text-decoration: underline;
+
+}

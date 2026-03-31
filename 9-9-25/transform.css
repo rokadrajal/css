@@ -1,0 +1,57 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    text-align: center;
+    transition: all 1s ease-in-out 0s;
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    transition: all 100s ease-in-out 0s;
+    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color:lightgoldenrodyellow ;
+    text-align: center;
+    transition: all 1s ease-in-out 0s;
+    
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color:lightgreen ;
+    text-align: center;
+    transition: all 1s ease-in-out 0s;
+    
+}
+
+
+/* transform-transition */
+
+/* transform-translate,retate,scale,skew */
+
+.box1:hover{
+              /* (-)      (-) */
+    /* traslate-left,right,top,bottom */
+    transform: translate(200px,-100px);
+}
+
+.box2:hover{
+    transform: rotate(100000deg);
+}
+
+.box3:hover{
+
+    /* orginal size-1 */
+    transform: scale(2);
+}
+
+.box4:hover{
+    transform: skew(100deg);
+}

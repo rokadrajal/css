@@ -1,0 +1,74 @@
+.one{
+    width: 900px;
+    height: 300px;
+    border: 3px solid rgb(197, 196, 196);
+    border-radius: 10px;
+    background-color: rgb(233, 231, 231);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:20px;
+    
+    
+    
+}
+
+.two{
+    width: 900px;
+    height: 300px;
+    border: 3px solid rgb(197, 196, 196);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    
+
+}
+
+.three{
+    width: 900px;
+    height: 200px;
+    border: 3px solid rgb(197, 196, 196);
+    border-radius: 10px;
+    background-color: rgb(233, 231, 231);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:20px;
+    
+    
+    
+}
+
+
+
+
+.main{
+    background-color: rgb(46, 153, 46);
+    border: 5px solid skyblue;
+    font-weight: bold;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one h1::first-letter{
+    color: orange;
+    font-size: 50px;
+}
+
+.two h1::first-letter{
+    color: orange;
+    font-size: 50px;
+}
+
+
+.three h1::first-letter{
+    color: orange;
+    font-size: 50px;
+}
+
+.p1,.p2{
+    background-color: rgb(255, 255, 157);
+    padding: 5px;
+}

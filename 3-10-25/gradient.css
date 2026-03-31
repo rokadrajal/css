@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    width: 80%;
+    height: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 40px;
+}
+
+.box-1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);    
+}
+
+
+/* background size */
+
+.box-2{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: cover;    
+}
+
+.box-3{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: contain;    
+}
+
+.box-4{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: 200px 100px;    
+}
+
+
+/* background repeat */
+
+.box-5{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: 200px 100px;  
+    background-repeat: no-repeat;  
+}
+
+.box-6{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: 200px 100px;  
+    background-repeat:repeat-x;  
+}
+
+.box-7{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-size: 200px 100px;  
+    background-repeat:repeat-y;  
+}
+
+
+/* background position */
+
+
+.box-8{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-9{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-repeat: no-repeat;
+    background-position:left top;  
+}
+
+.box-10{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-repeat: no-repeat;
+    background-position:right bottom;  
+}
+
+
+/* background attachment */
+
+.box-11{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.box-12{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;  
+}
+
+
+
+
+
+

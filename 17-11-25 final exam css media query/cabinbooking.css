@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 95%;
+    height: 80px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 35px;
+    margin-top: 40px;
+    border-radius: 50px;
+    display: flex;
+}
+nav .logo img{
+    margin-left: 50px;
+   margin-top: -10px;
+}
+nav .option{
+    display: flex;
+}
+nav .option ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 350px;
+    margin-top: 25px;
+    gap: 50px;
+}
+nav .option .btn1{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:#FF0000 ;
+    color:white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: none;
+    transition: all 1s ease-in-out 0s;
+}
+nav .option .btn1:hover{
+    background-color: #ea0d0d;
+    transform: translate(0px,-5px);
+}
+.option img{
+   margin-left: 50px;
+   margin-top: 15px;
+}
+.main1{
+    width: 100%;
+    height: 100vh;
+}
+.main1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+.main1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 5px;
+}
+.main1 .wifi{
+    display: flex;
+}
+.img1{
+    width: 430px;
+    height: 600px;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 80px;
+    transition: all 1s ease-in-out 0s;
+}
+.img1:hover{
+    transform:scale(1.02);
+}
+.img1 img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: all 1s ease-in-out 0s;
+}
+.img1 img:hover{
+    transform:scale(1.01);
+}
+.img1 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d30f0f;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.img1 h2:hover{
+   color:#ab1313;
+}
+.img1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.img1 .button{
+    display: flex;
+}
+.img1 .btn2{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.img1 .btn2 i{
+    margin-right: 10px;
+}
+.img1 .btn3{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.img1 .btn3 i{
+    margin-right: 10px;
+}
+.img1 hr{
+    width: 370px;
+    height: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.img1 .price{
+    display: flex;
+}
+.img1 .price h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.img1 .price p{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.img1 .price .btn4{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:#FF0000 ;
+    color:white;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 20px;
+    border: none;
+}
+.img2{
+    width: 430px;
+    height: 600px;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 80px;
+    transition: all 1s ease-in-out 0s;
+}
+.img2:hover{
+    transform:scale(1.02);
+}
+.img2 img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: all 1s ease-in-out 0s;
+}
+.img2 img:hover{
+    transform:scale(1.01);
+}
+.img2 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d30f0f;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.img2 h2:hover{
+   color:#ab1313;
+}
+.img2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.img2 .button{
+    display: flex;
+}
+.img2 .btn5{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.img2 .btn5 i{
+    margin-right: 10px;
+}
+.img2 .btn6{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+     background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.img2 .btn6 i{
+    margin-right: 10px;
+}
+.img2 hr{
+    width: 370px;
+    height: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.img2 .price{
+    display: flex;
+}
+.img2 .price h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.img2 .price p{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.img2 .price .btn7{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:#FF0000 ;
+    color:white;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border: none;
+}
+.img3{
+    width: 430px;
+    height: 600px;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 80px;
+    transition: all 1s ease-in-out 0s;
+}
+.img3:hover{
+    transform:scale(1.02);
+}
+.img3 img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: all 1s ease-in-out 0s;
+}
+.img3 img:hover{
+    transform:scale(1.01);
+}
+.img3 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d30f0f;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.img3 h2:hover{
+   color:#ab1313;
+}
+.img3 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.img3 .button{
+    display: flex;
+}
+.img3 .btn8{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.img3 .btn8 i{
+    margin-right: 10px;
+}
+.img3 .btn9{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+     background-color: white;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.img3 .btn9 i{
+    margin-right: 10px;
+}
+.img3 hr{
+    width: 370px;
+    height: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.img3 .price{
+    display: flex;
+}
+.img3 .price h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.img3 .price p{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.img3 .price .btn10{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:#FF0000 ;
+    color:white;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin-top: 400px;
+}
+footer .foot1{
+    margin-left: 20px;
+}
+footer .foot1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 20px;
+    text-align:left;
+    margin-top: 10px;
+}
+footer .foot1 .icones{
+    display: flex;
+}
+footer .foot1 .icone1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+footer .foot1 .icone1 i{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+footer .foot1 .icone2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+footer .foot1 .icone2 i{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+footer .foot1 .icone3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+footer .foot1 .icone3 i{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+footer .foot1 .icone4{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+footer .foot1 .icone4 i{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+footer .foot2{
+    margin-left: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .foot2 .bold1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer .foot2 h2{
+    color: gray;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 60px;
+}
+footer .foot3 h2{
+    color: gray;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 60px;
+    margin-left: 20px;
+}
+footer .foot3 h2:first-child{
+    margin-top: 83px;
+}
+footer .foot4{
+    margin-left: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .foot4 .bold2{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+footer .foot4 h2{
+    color: gray;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 60px;
+}
+footer .foot4 h2:last-child{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+.foot5{
+    margin-left: 0px;
+}
+footer .foot5 .bold3{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;   
+}
+footer .foot5 img{
+    border-radius: 10px;
+    
+}
+footer .foot5 .photo1{
+    margin-left: 90px;
+}
+footer .foot5 .photo1 img{
+    margin-left: 10px;
+}
+footer .foot5 .photo2{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+footer .foot5 .photo2 img{
+    margin-left: 10px;
+}
+
+
+
+.main2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 150px;
+}
+.main2 .subscribe1{
+    display: flex;
+}
+.main2 .img{
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+    background-color: #f3cfc6a0;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.main2 .img img{
+    margin-left: 13px;
+    margin-top: 7px;
+}
+.main2 .mail h2{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.main2 .mail p{
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.main2 .subscribe2{
+    display: flex;
+}
+.main2 input{
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+.main2 .btn11{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color:#FF0000 ;
+    color:white;
+    font-size: 20px;
+    margin-left: 30px;
+    border: none;
+}
+.main2 .btn11:hover{
+    background-color: #ea0d0d;
+}
+
+
+
+@media (max-width:576px){
+    nav{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    nav .logo img{
+        width: 150px;
+        height: 80px;
+    }
+    nav .option ul{
+        flex-direction: column;
+        margin-left: -130px;
+        margin-top: 90px; 
+        line-height: 1px; 
+    }
+    nav .option  img{
+       width: 30px;
+       height: 35px;
+       flex-direction: row;
+       margin-left: 200px;
+       margin-top: 10px;
+    }
+    nav .option .btn1{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+    .main1{
+        width: 100%;
+        height: 280vh;
+    }
+    .main1 .wifi{
+        flex-direction: column;
+    }
+    .main1 h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .main1 p{
+        font-size: 20px;
+    }
+    .main1 .img1{
+        width: 400px;
+        height: 600px;
+        margin-left: 90px;
+    }
+    .main1 .img1{
+        width: 400px;
+        height: 550px;
+    }
+    .img1 img{
+        width: 400px;
+        height: 250px;
+    }
+    .img1 h2{
+        font-size: 25px;
+    }
+    .img1 p{
+        font-size: 17px;
+        margin-left: -40px;
+    }
+    .img1 .btn2{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .img1 .btn2 i{
+        margin-left: 0px;
+        color: black;
+    }
+    .img1 .btn3{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .main1 hr{
+        width: 340px;
+    }
+    .img1 .price h4{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .img1 .price p{
+        margin-top: 43px;
+    }
+    .img1 .price .btn4{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    .main1 .img2{
+        width: 400px;
+        height: 550px;
+        margin-left: 90px;
+    }
+    .img2 img{
+        width: 400px;
+        height: 250px;
+    }
+    .img2 h2{
+        font-size: 25px;
+    }
+    .img2 p{
+        font-size: 17px;
+        margin-left: -40px;
+    }
+    .img2 .btn5{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .img2 .btn5 i{
+        margin-left: 0px;
+        color: black;
+    }
+    .img2 .btn6{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    hr{
+        width: 320px;
+    }
+    .img2 .price h4{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .img2 .price p{
+        margin-top: 43px;
+    }
+    .img2 .price .btn7{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    .main1 .img3{
+        width: 400px;
+        height: 550px;
+        margin-left: 90px;
+    }
+    .img3 img{
+        width: 400px;
+        height: 250px;
+    }
+    .img3 h2{
+        font-size: 25px;
+    }
+    .img3 p{
+        font-size: 17px;
+        margin-left: -40px;
+    }
+    .img3 .btn8{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .img3 .btn8 i{
+        margin-left: 0px;
+        color: black;
+    }
+    .img3 .btn9{
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+    hr{
+        width: 320px;
+    }
+    .img3 .price h4{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .img3 .price p{
+        margin-top: 43px;
+    }
+    .img3 .price .btn10{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+
+    footer{
+        width: 100%;
+        height: 320vh;
+        flex-direction: column;
+    }
+    footer .foot1{
+        margin-left: 100px;
+    }
+    footer .foot2{
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    footer .foot3{
+        margin-left: 80px;
+        margin-top: -90px;
+    }
+    footer .foot4{
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    footer .foot5{
+        margin-left: -10px;
+        margin-top: 70px;
+    }
+
+
+    .main2{
+        flex-direction: column;
+    }
+    .main2 .img{
+        width: 70px;
+        height: 70px;
+    }
+    .main2 .img img{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .main2 .mail h2{
+        font-size: 25px;
+    }
+    .main2 .mail p{
+        font-size: 18px;
+    }
+    .main2 .subscribe1{
+        display: flex;
+    }
+    .main2 input{
+        width: 250px;
+        height: 60px;
+        font-size: 17px;
+    }
+    .main2 .btn11{
+        width: 120px;
+        height: 60px;
+        font-size: 17px;
+    }
+    .main2 .subscribe2{
+        display: flex;
+        margin-left: -130px;
+        margin-top: 70px;
+    }
+    
+
+}

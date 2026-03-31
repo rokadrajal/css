@@ -1,0 +1,117 @@
+.box{
+    width: 1300px;
+    height: 800px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.box1{
+    width: 1300px;
+    height: 100px;
+    background-color:rgb(97, 96, 96);
+    color: white;
+    margin-top: -22px;
+    text-align: center;
+    
+    
+}
+.box1 h1{
+   padding-top: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+.box2{
+    width: 200px;
+    height: 700px;
+    border: 1px solid rgb(151, 150, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+
+.box3{
+    width: 1150px;
+    height: 701px;
+    background-color:lightgray;
+    display: flex;
+    overflow: scroll;
+}
+
+
+.b1{
+    width: 200px;
+    height: 150px;
+    background-color: lightyellow;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+}
+
+.b2{
+    width: 200px;
+    height: 150px;
+    background-color: lightgreen;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    
+}
+
+.b3{
+    width: 200px;
+    height: 150px;
+    background-color: lightsalmon;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 160px;
+    
+}
+
+.b4{
+    width: 200px;
+    height: 150px;
+    background-color: lightskyblue;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 130px;
+    left: 220px;
+    
+}
+
+.b5{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(9, 9, 51);
+    border-top-left-radius: 5px;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-left: 860px;
+    position: fixed;
+    bottom: 0;
+    margin-top: 800px;
+}
+
+li{
+    margin-left: -20px;
+}
+
+button{
+    padding: 10px;
+    
+}
