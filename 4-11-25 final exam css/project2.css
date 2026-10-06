@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -880,12 +880,456 @@ footer{
 .last h4 span{
     color:rgb(238, 66, 123) ;
 }
+*/
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Gill Sans', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
 
+nav {
+    width: 100%;
+    position: relative;
+}
 
+.main1 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
 
+.logo img {
+    height: 35px;
+    width: auto;
+}
 
+.text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.text h2 {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
+.text h2:first-child {
+    color: rgb(238, 66, 123);
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icone .b1 {
+    padding: 10px 20px;
+    background-color: rgb(238, 66, 123);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.febric {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                      url(https://5.imimg.com/data5/SELLER/Default/2024/3/399196530/XU/WH/AV/160796586/cotton-fabric-500x500.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 120px 20px 40px;
+}
+
+.febric h1 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: clamp(32px, 5vw, 65px);
+    line-height: 1.2;
+}
+
+.febric .b4, .febric .b5 {
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.febric .b4 {
+    background-color: rgb(238, 66, 123);
+    color: white;
+}
+
+.febric .b5 {
+    background-color: white;
+    color: rgb(238, 66, 123);
+}
+
+.febric .b2, .febric .b3 {
+    display: none; 
+}
+
+.main2 {
+    display: flex;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 30px;
+    gap: 40px;
+    align-items: center;
+}
+
+.main2 .m1 {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.main2 .m1 img {
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    position: static !important; 
+}
+
+.main2 .m2 {
+    flex: 1;
+}
+
+.m2 h3 {
+    color: rgb(238, 66, 123);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.m2 h1 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: clamp(28px, 4vw, 45px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.m2 p {
+    color: rgb(90, 90, 90);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.num1 h1 {
+    font-size: 55px;
+    color: rgb(238, 66, 123);
+    line-height: 1;
+}
+
+.num1 h2 {
+    font-size: 16px;
+    color: #333;
+}
+
+.i2 {
+    width: 2px;
+    height: 90px;
+    background-color: rgb(238, 66, 123);
+}
+
+.num2 h2 {
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+    line-height: 32px;
+}
+
+.m2 button {
+    padding: 12px 30px;
+    border: none;
+    background-color: rgb(238, 66, 123);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main3 {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.main3 .m3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main3 .m3 h3, .main4 .m5 h3 {
+    color: rgb(238, 66, 123);
+    font-size: 18px;
+}
+
+.l9, .l10 {
+    width: 60px;
+    height: 3px;
+    background-color: rgb(238, 66, 123);
+    margin: 10px auto;
+}
+
+.main3 .m3 h1, .main4 .m5 h1 {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: clamp(26px, 3.5vw, 40px);
+}
+
+.m4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.m4 .i3,
+.m4 .i4,
+.m4 .i5,
+.m4 .i6 {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+    transition: transform 0.2s;
+}
+
+.m4 .i3:hover,
+.m4 .i4:hover,
+.m4 .i5:hover,
+.m4 .i6:hover {
+    transform: translateY(-5px);
+}
+
+.m4 .i5 {
+    background-color: #212a34;
+    color: white;
+}
+
+.m4 h1 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+
+.m4 p {
+    font-size: 14px;
+    color: #777;
+}
+
+.m4 .i5 p {
+    color: #bbb;
+}
+
+.m4 h3 {
+    font-size: 15px;
+    color: rgb(238, 66, 123);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.main4 {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.main4 .m5 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.m6 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    align-items: center;
+}
+
+.m6 .but1, .m6 .but2 {
+    display: none;
+}
+
+.m6 .i7, .m6 .i8, .m6 .i9 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px 25px;
+    text-align: center;
+    background: #fff;
+}
+
+.m6 .i8 {
+    background-color: #212a34;
+    color: white;
+}
+
+.m6 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.m6 h1 {
+    font-size: 38px;
+    color: rgb(238, 66, 123);
+    margin: 15px 0;
+}
+
+.m6 h4 {
+    font-size: 14px;
+    color: #777;
+    padding: 10px 0;
+}
+
+.m6 .i8 h4 {
+    color: #ccc;
+}
+
+.m6 .l1, .m6 .l2, .m6 .l3, .m6 .l4, .m6 .l5, .m6 .l6, .m6 .l7 {
+    width: 80%;
+    height: 1px;
+    background: #eee;
+    margin: 0 auto;
+}
+
+.m6 .i8 .l3, .m6 .i8 .l4, .m6 .i8 .l5 {
+    background: #444;
+}
+
+.m6 button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.m6 .b6, .m6 .b8 {
+    background-color: rgb(238, 66, 123);
+    color: white;
+}
+
+.m6 .b7 {
+    background-color: white;
+    color: rgb(238, 66, 123);
+}
+
+footer {
+    background-color: #212a34;
+    color: white;
+    padding: 60px 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 100%;
+}
+
+.f1 img {
+    margin-bottom: 15px;
+}
+
+.f1 p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.f1 i {
+    font-size: 18px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+footer h3 {
+    color: rgb(238, 66, 123);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.l8, .l11, .l18 {
+    display: none;
+}
+
+.img1, .img2 {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.img1 img, .img2 img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 !important;
+}
+
+.last {
+    background-color: #1a222a;
+    text-align: center;
+    padding: 20px;
+}
+
+.last h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.last h4 span {
+    color: rgb(238, 66, 123);
+}
+
+.l19 {
+    display: none;
+}
